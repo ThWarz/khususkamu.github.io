@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  
+  </head>
+  <body>
+
+    <style>
+
+     html {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  color: white;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.7), url(./gambar/pemandangan.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.container .stiker {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 100%;
+  margin-top: 80px;
+  overflow: hidden;
+}
+.container .stiker img {
+  width: 100%;
+}
+.container .paragraf {
+  margin-top: 0px;
+  text-align: center;
+}
+.container footer {
+  margin-top: 180px;
+  margin-top: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px white solid;
+}
+.container footer li {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgba(248, 247, 247, 0.4);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container footer li a img {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 50px;
+}
+#container1{
+  background-image: url(https://i.postimg.cc/tgxB0tNn/pemandangan11.jpg);
+}
+#container1 h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 20px;
+  animation: text 2s 1;
+}
+#container1 p {
+  margin-bottom: 20px;
+}
+#container1 .stiker{
+ 
+  /* animation: text 2s; */
+}
+#container1 footer{
+  /* animation: text 2s; */
+}
+
+#counter2{
+  background-image: url(https://i.postimg.cc/FFVN50T6/jalan22.jpg);
+  justify-content: space-between;
+
+}
+#counter2 .stiker{
+  margin-top: -20px;
+  animation: text 2s;
+}
+#counter2 .group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: space-around;
+  height: 400px;
+  margin-top: 20px;
+}
+#counter2 .paragraf{
+
+  margin-bottom: 0px;
+} 
+#counter2 footer{
+  margin-bottom: 40px;
+}
+
+#counter3{
+  justify-content:space-between;
+  background-image: url(https://i.postimg.cc/Dzfbghyz/unnamed1.jpg); 
+
+   
+}
+
+
+
+#counter3 .paraf {
+  width: 300px;
+  text-align: left;
+ 
+
+}
+#counter3 .paragraf{
+   /* border: 1px white solid; */
+  margin-top: 200px;
+
+  
+
+
+
+
+  
+}
+
+#counter3 footer{
+   border: 2px white solid;
+  margin-bottom: 30px;
+  
+}
+#counter4{
+  background-image: url(https://i.postimg.cc/MTm6rMP2/1111jpg.jpg);
+  display: flex;
+  align-items: center;
+
+}
+#counter4 .stiker img{
+  height: 100%;
+}
+#counter4 h2 {
+  text-align: center;
+}
+#counter4 .groupbtn {
+  width: 250px;
+  display: flex;
+  margin-bottom: 150px;
+  justify-content: space-around;
+}
+#counter4 .groupbtn .terima {
+  padding: 10px;
+  border-radius: 10px;
+  border: 3px solid white;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+#counter4 .groupbtn .terima a {
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+#counter4 .groupbtn .tolak {
+  padding: 10px;
+  border-radius: 10px;
+  border: 3px solid white;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+#counter4 .groupbtn .tolak a {
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+#counter5{
+  background-image: url(https://i.postimg.cc/hvvr3xDf/d2bb887282c6115f52c57eb31db243561.jpg);
+}
+
+#counter5 .stiker {
+  margin-top: -20px;
+
+}
+#counter5 .paragraf{
+  margin-bottom: 100px;
+}
+
+
+@keyframes text {
+  0% {
+    margin-bottom: 20px;
+    transform: rotate(25deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+  
+}
+  @keyframes text2 {
+  0% {
+    margin-bottom: 20px;
+    transform: rotate(25deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+/*# sourceMappingURL=index.css.map */
+    </style>
+
+
+    <div class="container"  id="container1"  >
+      <div class="stikercn">
+        <div class="stiker">
+          <img src="https://i.postimg.cc/DzdMMnCg/kucing.jpg" alt="">
+        </div>
+      </div>
+      <div class="paragraf">
+        <h3 style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 35px;" >Hei Kamu!</h3>
+        <p style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Aku boleh jujur engga nih? 😊</p>
+        <p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Scroll terus sampe bawah ya (●'◡'●)</p>
+      </div>
+
+      <footer>
+        <li onclick="pencet()"><a href="#counter2">🔽</a></li>
+      </footer>
+    </div>
+<!-- ------- -->
+    <div class="container" id="counter2">
+      <div class="group">
+      <div class="stiker"><img src="https://i.postimg.cc/XvSvG0zX/kucing-1.jpg" alt=""></div>
+
+      <div class="paragraf">
+        <h2 style="font-size: 30px; font-weight:900; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"></h2>
+        <br>
+        <p style="font-size: 20px;"></p>
+      </div>
+    </div>
+
+      <footer>
+        <li onclick="pencet2()"><a href="#counter3" id="#counter2">🔽</a> </li>
+      </footer>
+    </div>
+<!--  -->
+    <div class="container" id="counter3">
+    
+      
+      <div class="paragraf">
+        <div class="paraf">
+  
+        <br>
+        <p> </p>
+        <br>
+        <p style="font-weight: 900; ""></p>
+         <p style="font-family: Arial, Helvetica, sans-serif;"></p>
+          <br>
+          <p></p>
+      </div>
+      </div>
+
+      <footer>
+        <li onclick="pencet3()"><a href="#counter4" id="#counter3">🔽</a></li>
+      </footer>
+    </div>
+
+
+
+    <div class="container" id="counter4">
+      <div class="stiker"><img src="https://i.postimg.cc/jdbvXWnh/641361c442b944bcbdce69ce6ce89341.gif" alt=""></div>
+        <h2 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Intinya, kamu mau gak <br>jadi pacar ku?</h2>
+
+        <div class="groupbtn">
+        <button onclick="terima()" class="terima"><a href="#counter5">Terima 💗</a></button>
+        <button onclick="tolak()" class="tolak"><a href="#counter6">Tolak 💔</a></button> 
+        </div>
+    
+
+    </div>
+
+    <!-- code dari terima dan tolak  -->
+    <div class="container" id="counter5">
+    
+       <div class="stiker">
+        <img src="https://i.postimg.cc/t4ZLZjpL/kucing-2.jpg" alt="">
+       </div>
+      <div class="paragraf">
+        <h3></h3>
+        <h3></h3>
+        <br>
+      <p></p> 
+      <p></p>
+      <br>
+      <p></p>
+       </div>
+         
+     
+    </div>
+
+    <div class="container" id="counter6">
+    
+      <div class="stiker"></div>
+     <div class="paragraf">
+         <h3>
+         </h3>
+         <br>
+         <p></p>
+         <br>
+         <p></p>
+         <br>
+     </div>
+
+   
+   </div>
+ <!-- end fot  -->
+
+       
+
+    <script >
+     
+
+//const berisi tag html
+
+
+
+const container1 = document.querySelector(".container");
+console.log(container1)
+const container2 = document.querySelector('#counter2')
+const p = container2.querySelector('h2')
+const p2 = container2.querySelector('p')
+p.style.fontFamily = 'arial'
+console.log(p)
+const container3 = document.querySelector('#counter3')
+console.log(container3)
+container3.style.display  = 'none'
+container2.style.display = 'none'
+const licontainer2 = container2.querySelector('footer')
+
+licontainer2.style.display = 'none'
+// const fotcontainer1 = container1.querySelector('footer').addEventListener('click ' , function(){
+//     console.log('ok')
+// })
+
+// isi dari counter 3 
+
+const counter3 = document.querySelector('#counter3')
+const cn3p = counter3.querySelectorAll('p')  
+const cn1 = cn3p[0]
+const cn2 = cn3p[1]
+const cn3 = cn3p[2]
+const cn4 = cn3p[3]
+console.log(cn1)
+//  end of counter 3 ==== 
+
+console.log(cn3p)
+
+// ======
+//====== end tag by html======
+let i =0 ;
+let f = 0;
+let text = `Sebenarnya..`;
+let text2 = 'Aku suka sama kamu :)';
+// function li click 
+function pencet() {
+    container2.style.display= 'flex'
+    setTimeout(() => {
+        container1.style.display = "none";
+    }, 500);
+    
+    setTimeout( () => {
+        licontainer2.style.display = 'flex'
+        licontainer2.style.animation = ''
+    },3600 )
+    
+    function type(){
+        if(i < text.length){
+            p.innerHTML += text[i];
+            i++;
+            setTimeout(type , 100)
+        }else if(f < text2.length){
+            p2.innerHTML += text2[f];
+            f++;
+            setTimeout(type , 100)
+        }
+
+    }
+    type()
+
+}
+
+let a = 0;
+let b = `Kalo kamu tanya kenapa aku suka sama kamu, itu karena aku punya rasa nyaman tersendiri yang ga akan aku temui di mana pun.`
+let c = 0 ;
+let d = `Kamu tau ?`;
+let e = 0 ;
+let g = ` Gaada yang bisa bikin aku nyaman selain kamu... `
+let h = 0 ;
+let k = `Dan kerena mengenalimu, aku merasakan apa itu kenyamanan, apa itu kebahagiaan, dan kamu sekaligus rumah bagiku :)`
+
+const container3foot = container3.querySelector('footer')
+container3foot.style.display  = 'none'
+console.log('ok ' , container3foot)
+
+function pencet2( ){
+  setTimeout(() => {
+
+    container3foot.style.display = 'flex'
+  } , 17000)
+     container3.style.display= 'flex'
+     
+     setTimeout(() => {
+        container2.style.display = 'none'
+     },500);
+
+ function type2(){
+    container3.style.display = 'flex'
+    if(a < b.length){
+        setTimeout(type2 ,50)
+            cn1.innerHTML += b[a];
+            a++
+
+    }else if(c < d.length){
+        cn2.innerHTML += d[c]
+        c++
+        setTimeout(type2 ,50)
+    }else if(e < g.length){
+        cn3.innerHTML += g[e]
+        e++
+        setTimeout(type2  ,50 )
+    }else if(h < k.length){
+        cn4.innerHTML += k[h]
+        h++ 
+        setTimeout(type2 ,50)
+    }
+    }
+
+ type2()
+  
+
+}
+const container4 = document.querySelector('#counter4')
+container4.style.display = 'none'
+function pencet3(){
+  container4.style.display = 'flex'
+  setTimeout(() =>{
+    container3.style.display = 'none'
+
+  }, 400)
+}
+
+
+const counter5 = document.querySelector('#counter5')
+
+const counter5h3 = counter5.querySelectorAll('h3')
+const counter5h31 = counter5h3[0]
+const counter5h32 = counter5h3[1]
+
+const counter5p = counter5.querySelectorAll('p')
+
+const counter5p1 = counter5p[0]
+const counter5p2 = counter5p[1]
+const container5p3 = counter5p[2]
+
+
+
+let ab = 0;
+let abtext = 'yeeayy! 🥳'
+let abctext = 'I Love You 😘'
+let abc = 0 ;
+let ac = 0;
+let actext = 'Makasih udah mau nerima'
+let bb = 0
+let bbtext = 'aku jadi pacar kamu, hihi 💗💗'
+let ad =0 ;
+let adtext = 'Jangan lupa balas di WA yah 😊'
+const counter4 = document.querySelector('#counter4')
+const cn4btn = counter4.querySelectorAll('button')
+let acisi = 0;
+console.log(cn4btn)
+
+const container6 = document.querySelector('#counter6')
+const container6h3 = container6.querySelector('h3')
+const container6p = container6.querySelectorAll('p')
+const container6p1 = container6p[0]
+const container6p2 = container6p[1]
+let text1 = 'Hmmm , OK '
+let text1cn = 0 ; 
+let text2dd = 'adadadasdofjgojsdjogsjo'
+let text2cn = 0 ;
+let text3 = 'iadafafhnuashnfiuhaf'
+let text3cn = 0;
+
+function tolak(){
+  setTimeout( () => {
+
+container4.style.display = 'none'
+}, 500)
+  container6.style.display = 'flex'
+    if(text1cn < text1.length ){
+       setTimeout(tolak , 100 )
+       container6h3.innerHTML += text1[text1cn] 
+       text1cn ++
+    }else if(text2cn < text2dd.length ){
+       setTimeout(tolak , 100 )
+       container6p1.innerHTML += text2dd[text2cn] 
+       text2cn ++
+    }else if(text3cn < text3.length ){
+       setTimeout(tolak , 100 )
+       container6p2.innerHTML += text3[text3cn] 
+       text3cn ++
+    }
+}
+container6.style.display = 'none'
+
+counter5.style.display = 'none'
+
+function terima(){
+  setTimeout( () => {
+
+    container4.style.display = 'none'
+  }, 500)
+  counter5.style.display = 'flex'
+
+     if(ab < abtext.length){
+         counter5h31.innerHTML += abtext[ab]
+         ab++
+         setTimeout(terima , 100)
+
+     }else if (ac < actext.length){
+        counter5p1.innerHTML += actext[ac]
+        ac++;
+        acisi ++;
+        console.log(ac)
+        setTimeout(terima , 100)
+     }else if (bb < bbtext.length){
+        counter5p2.innerHTML += bbtext[bb]
+        bb++;
+        setTimeout(terima , 100) 
+     }else if(abc < abctext.length ){
+        counter5h32.innerHTML += abctext[abc]
+        abc++
+        setTimeout(terima , 100)
+        if(ac === acisi ){
+           counter5h31.style.display = 'none'
+        }
+     }else if(ad < adtext.length){
+         container5p3.innerHTML += adtext[ad]
+         ad++
+         setTimeout(terima , 100)
+     }
+
+ 
+
+}
+
+
+    </script>
+  </body>
+</html>
+
+
